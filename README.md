@@ -1,9 +1,6 @@
 │
-├── Cgan_experiment                       <- CGAN models for all epochs and training statistics
 │
-├── gan_experiment                        <- GAN models for all epochs and training statistics
-│
-├── gan_interview                         <- Main Code  
+├── code                                  <- Main Code  
 │   ├── arg_extractor.py                  <- Extracts Terminal Arguments
 │   ├── create_grid_images.py             <- Create Grid of Images Seen in Report
 │   ├── experiment_builder.py             <- Main Training Logic to Train an Experiment 
@@ -13,7 +10,7 @@
 │   ├── storage_utils.py                  <- Helper to Store Stats.
 │   └── train_evaluate_gan.py             <-Helper before main logic in experiment_builder.py
 │
-├── images_for_report   
+├── images  
 │   
 ├── run_cgan.sh                           <- File to run CGAN
 ├── run_gan.sh                            <- File to run GAN
