@@ -1,19 +1,2 @@
-│
-│
-├── code                                  <- Main Code  
-│   ├── arg_extractor.py                  <- Extracts Terminal Arguments
-│   ├── create_grid_images.py             <- Create Grid of Images Seen in Report
-│   ├── experiment_builder.py             <- Main Training Logic to Train an Experiment 
-│   ├── get_gan_output.py                 <- Get a Single Output Image from a trained model
-│   ├── model_architectures.py            <- GAN's models
-│   ├── plot_curves.ipynb                 <- Plot Training Curves
-│   ├── storage_utils.py                  <- Helper to Store Stats.
-│   └── train_evaluate_gan.py             <-Helper before main logic in experiment_builder.py
-│
-├── images  
-│   
-├── run_cgan.sh                           <- File to run CGAN
-├── run_gan.sh                            <- File to run GAN
-│ 
-└── README.md                             <- The document you are currently reading, written for developers to replicate 
-                                             the environment used in the research project
+
+![generated_images_grid2](https://github.com/PascualMeritaTorres/Scalable-CGAN---GAN/assets/91559051/faf92843-00c7-4bc3-ac64-9ad9a8bd490d)
